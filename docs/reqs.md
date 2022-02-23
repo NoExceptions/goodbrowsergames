@@ -47,6 +47,10 @@ Foram listados pelos stakeholders as seguintes funcionalidades:
 
 10. Devera ter no sistema um local para um membro ver *recomendações* de jogos que ele ainda não avaliou. Para dar essa recomendação o **GoodBrowserGames** deverá utilizar um algoritimo, esse algorítimo deve estar detalhado nos requisitos do software.
 
+    #### Considerações
+    
+    Foi definindo que as sugestões ficaram persistidas de forma estática no banco de dados e a atualização da recomendação para determinado será feita em um processo assincrono disparado no logon do usuário. [Veja o diagrama](usecases.md#servico-de-atualização-de-recomendações).
+
 11. O administrador poderá obter os seguintes relatórios, por período de tempo (data inicial e final):
     1. 5 Jogos com o maior número de avaliações
     2. 5 Membros que mais avaliam

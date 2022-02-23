@@ -39,4 +39,18 @@ Foram listados pelos stakeholders as seguintes funcionalidades:
     - Uma descrição da avaliação em até 255 caracteres  
     Caso já tenha sido feita uma avaliação no passado o usuário poderá modificar sua avaliação do jogo.
 
-7.
+7. Ao mesmo tempo, quando um jogo estiver selecionado o membro poderá ver todas as avaliações dos demais mebros para aquele game.
+
+8. O membro poderá classificar uma avalição como útil.
+
+9. Um membro poderá solicitar as avaliações mais úteis do **GoodBrowserGames** ordenada pelo numero de votações como útil.
+
+10. Devera ter no sistema um local para um membro ver *recomendações* de jogos que ele ainda não avaliou. Para dar essa recomendação o **GoodBrowserGames** deverá utilizar um algoritimo, esse algorítimo deve estar detalhado nos requisitos do software.
+
+11. O administrador poderá obter os seguintes relatórios, por período de tempo (data inicial e final):
+    1. 5 Jogos com o maior número de avaliações
+    2. 5 Membros que mais avaliam
+    3. 5 jogos com a melhor média de avaliações (neste caso só entrarão na lista jogos com pelo menos 4 avaliações)
+    4. 3 categorias que receberam o maior número de avaliações
+
+### Requisitos não funcionais

@@ -17,6 +17,6 @@ O detalhamento de engenharia de software deste projeto pode ser encontrado na pa
 
 ### [Requisitos](docs/reqs.md)
 Todos os requisitos funcionais e não funcionais elencados para este sistema estarão descritos neste local.
-### [Diagramas do Software](docs/usecases.md)
-Use este link para navegar diretamente para todos os detalhamento visuais do projeto: uso de casos, flows e outros.
+### [Casos de Uso e Funcionalidades](docs/usecases.md)
+Use este link para navegar diretamente para todos o detalhamento de cada etapa do sistema.
 

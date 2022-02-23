@@ -27,8 +27,38 @@ Uso de Caso   | Cadastro de novos usuários
 Pré-Condições  | Nenhuma
 Pós-Condições  | Cadastro de usuário efetuado com sucesso, nível de acesso standard: Membro
 
+### 4. Cadastro/Edição de Browser Games
 
-### Serviço de Atualização de Recomendações
+Uso de Caso   | Cadastro de Browser Games
+--------------|------------
+Pré-Condições  | Usuário logado com nível de administrador
+Pós-Condições  | Cadastro ou alteração de browser game efetuado com sucesso
+
+### 5. Cadastro/Edição de Categorias
+
+Uso de Caso   | Cadastro de Categorias
+--------------|------------
+Pré-Condições  | Usuário logado com nível de administrador
+Pós-Condições  | Cadastro ou alteração de categoria efetuado com sucesso
+
+### 6. Pesquisa de jogos
+
+Uso de Caso   | Pesquisa de Jogos
+--------------|------------
+Pré-Condições  | Usuário logado
+Pós-Condições  | Lista de jogos conforme tipo de busca
+
+#### Fluxo Principal 
+1. Usuário precisará logado e navegar até uma interface de busca
+2. a busca poderá ser feita pelo nome do jogo (possível inserir o nome parcialmente) e/ou por escolha de uma categoria
+3. Usuário entra com os dados solicitados
+4. Sistema realiza a busca
+5. O sistema retorna a lista de jogos de acordo com a busca
+
+#### Fluxo alternativo
+1. Uma tela didática será retornada caso não seja encontrado nenhum jogo durante a busca
+
+### 14. Serviço de Atualização de Recomendações
 O diagrama abaixo registra quando o serviço de recomendações é disparado para atualizar as recomendações de um determinado membro. Essas recomendações são atualizadas a cada logon do usuário. De forma assíncrona, ou seja, assim que determinado membro é logado um sub-serviço será disparado para atualizar as recomendações.  
 **As recomendações sempre serão solicitadas estaticamente daquilo que está no banco de dados no momento da solicitação. O sistema que  eventualemnte atualizará os dados no banco.**
 ```mermaid

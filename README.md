@@ -8,13 +8,21 @@ Uma página web para avaliação de jogos em browser. Hoje em dia temos muitos j
 3. Pedro Vilela
 4. Rosana dos Santos Ferreira
 
-#### Gestão do Projeto
+## URLs importantes
+
+#### Código-fonte
+
+O código fonte se encontrará neste próprio repositório.
+
+#### Acompanhamento do Projeto
 
 O andamento do projeto poderá ser acompanhado através do trello, clique [aqui](https://trello.com/b/CSJAbnw2/digital-minds) para navegar até o nosso quadro.
+https://trello.com/b/CSJAbnw2/digital-minds
 
-#### Url de navegação
+#### Projeto em Execução (Versõ Nightly)
 
 Quando em desenvolvimento nosso projeto funcionará através do Heroku, clique [aqui para visualizar a versão mais recente](https://goodbrowsergames-web.herokuapp.com/) em fucnionamento.
+https://goodbrowsergames-web.herokuapp.com/
 
 ## Detalhamento do Projeto
 O detalhamento de engenharia de software deste projeto pode ser encontrado na pasta docs deste repositório. Para facilitar o entendimento e navegabilidade do projeto os links abaixo podem ser utilizados.  

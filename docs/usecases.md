@@ -1,7 +1,33 @@
 ## Uso de casos e funcionalidades
-### 1. Uso de caso: Primeiro contato com o sistema e nívies de acesso
+### 1. Primeiro contato com o sistema 1 nívies de acesso
 O diagrama abaixo mostra qual comportamento cada tipo de usuário deverá ter com o sistema em seu primeiro contato.
 ![Uso de caso logon](/docs/imgs/overview_acesso.png)
+
+### 2. Logon no Sistema
+
+Uso de Caso   | Acesso a dados protegidos
+--------------|------------
+Pré-Condições  | Usuário já registrado
+Pós-Condições  | Acesso ao conteúdo protegido de acordo com permissão do usuário logado
+
+#### Fluxo Principal 
+1. Usuário acessa efetuar login / ou tenta acessar um conteúdo protegido sem estar logado
+2. Sistema pede usuario, senha e um captcha (para evitar mútliplas tentativas)
+3. Usuário entra com os dados solicitados
+4. Sistema verifica o acesso
+5. O sistema valida a sessão e passa a permitir os acessos destinados aquele usuário
+
+#### Fluxo alternativo
+1. Se a senha estiver inválida o sistema volta ao passo 2 e destaca a pergunta se o usuário esqueceu sua senha
+
+### 3. Cadastro de novos membros
+
+Uso de Caso   | Cadastro de novos usuários
+--------------|------------
+Pré-Condições  | Nenhuma
+Pós-Condições  | Cadastro de usuário efetuado com sucesso, nível de acesso standard: Membro
+
+
 ### Serviço de Atualização de Recomendações
 O diagrama abaixo registra quando o serviço de recomendações é disparado para atualizar as recomendações de um determinado membro. Essas recomendações são atualizadas a cada logon do usuário. De forma assíncrona, ou seja, assim que determinado membro é logado um sub-serviço será disparado para atualizar as recomendações.  
 **As recomendações sempre serão solicitadas estaticamente daquilo que está no banco de dados no momento da solicitação. O sistema que  eventualemnte atualizará os dados no banco.**

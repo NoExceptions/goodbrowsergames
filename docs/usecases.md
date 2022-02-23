@@ -58,7 +58,41 @@ Pós-Condições  | Lista de jogos conforme tipo de busca
 #### Fluxo alternativo
 1. Uma tela didática será retornada caso não seja encontrado nenhum jogo durante a busca
 
-### 14. Serviço de Atualização de Recomendações
+**O resultado quando uma lista retornará sempre os jogos ordenados pelo nome alfabeticamente**
+
+### 7. Interface de Jogo
+
+Uso de Caso   | Interface de Jogo
+--------------|------------
+Pré-Condições  | Usuário logado e jogo escolhido
+Pós-Condições  | Dados relevantes a um jogo específico
+
+- Essa interface será mostrada quando um usuário escolher um jogo específico, ela mostrará:  
+    - O link do jogo
+    - Um video com a demostração do jogo (se possível)
+    - Uma descrição de até 255 caracteres do jogo
+    - Uma lista de avaliações começando pelas mais úteis e recentes respectivamente, contendo:
+        - Uma nota de 1-5 estrelas
+        - Texto com a descrição das informações
+        - Um campo inteiro mostrando a quantidade de votos útils ele já recebeu
+        - *Se houver, uma avaliação separada feita pelo próprio usuário que solicitou essa interface, a ideia é mostrar a avalição do próprio usuário sempre primeira*.
+            - A validação já feita por um membro pode ser alterada por ele inúmeras vezes
+        - Se administrador o usuário poderá remover qualquer comentário de qualquer membro
+  
+
+### 7. Gestão de Membros
+
+Uso de Caso   | Gestão de Membros
+--------------|------------
+Pré-Condições  | Usuário logado com nível de administrador
+Pós-Condições  | Operar alterações em outros membros
+
+Para fins de administração um administrador poderá excluir qualquer outro membro, ou torná-lo um administrador.
+Haverá ainda a opção de o membro ser um administrador garantidor (granter):  
+Administradores garantidores podem tornar outros membros administradores e excluir outros administradores.
+
+
+### 8. Serviço de Atualização de Recomendações
 O diagrama abaixo registra quando o serviço de recomendações é disparado para atualizar as recomendações de um determinado membro. Essas recomendações são atualizadas a cada logon do usuário. De forma assíncrona, ou seja, assim que determinado membro é logado um sub-serviço será disparado para atualizar as recomendações.  
 **As recomendações sempre serão solicitadas estaticamente daquilo que está no banco de dados no momento da solicitação. O sistema que  eventualemnte atualizará os dados no banco.**
 ```mermaid

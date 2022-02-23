@@ -12,6 +12,10 @@ Uma página web para avaliação de jogos em browser. Hoje em dia temos muitos j
 
 O andamento do projeto poderá ser acompanhado através do trello, clique [aqui](https://trello.com/b/CSJAbnw2/digital-minds) para navegar até o nosso quadro.
 
+#### Url de navegação
+
+Quando em desenvolvimento nosso projeto funcionará através do Heroku, clique [aqui para visualizar a versão mais recente](https://goodbrowsergames-web.herokuapp.com/) em fucnionamento.
+
 ## Detalhamento do Projeto
 O detalhamento de engenharia de software deste projeto pode ser encontrado na pasta docs deste repositório. Para facilitar o entendimento e navegabilidade do projeto os links abaixo podem ser utilizados.  
 

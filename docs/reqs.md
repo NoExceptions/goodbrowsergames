@@ -58,3 +58,9 @@ Foram listados pelos stakeholders as seguintes funcionalidades:
     4. 3 categorias que receberam o maior número de avaliações
 
 ### Requisitos não funcionais
+
+1. O sistema deverá estar operacional 99,9% do tempo.
+2. Atividades que necessitam parar sistema em produção não podem durar mais 2 horas e nem ocorrerem nós horários críticos.
+3. O banco de dados escolhido para essa solução é o MongoDB.
+4. A linguagem de programação escolhida para o sistema (backend) é o NodeJS.
+

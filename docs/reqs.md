@@ -49,7 +49,8 @@ Foram listados pelos stakeholders as seguintes funcionalidades:
 
     #### Considerações
     
-    Foi definindo que as sugestões ficaram persistidas de forma estática no banco de dados e a atualização da recomendação para determinado será feita em um processo assincrono disparado no logon do usuário. [Veja o diagrama](usecases.md#servico-de-atualização-de-recomendações).
+    Com o intuito de recomendar novos jogos para nossos membros, o sistema priorizará jogos da mesma categoria dos últimos avaliados pelo membro. A prioridade se dará respecticvamente pelo software mais recente seguido do software como menos avaliações.
+    Foi definindo que as sugestões ficarão persistidas de forma estática no banco de dados e a atualização da recomendação para determinado membro será feita em um processo assincrono disparado no logon dele. [Veja o diagrama](usecases.md#servico-de-atualização-de-recomendações).
 
 11. O administrador poderá obter os seguintes relatórios, por período de tempo (data inicial e final):
     1. 5 Jogos com o maior número de avaliações

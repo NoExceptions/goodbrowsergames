@@ -24,8 +24,17 @@ Pós-Condições  | Acesso ao conteúdo protegido de acordo com permissão do us
 
 Uso de Caso   | Cadastro de novos usuários
 --------------|------------
-Pré-Condições  | Nenhuma
+Pré-Condições  | Preenchimento do formulário de cadastro
 Pós-Condições  | Cadastro de usuário efetuado com sucesso, nível de acesso standard: Membro
+Pós-Condições  | Redirecionamento para página inicial
+
+1. Sistema irá pedir os dados de cadastro
+2. Usuário irá preencher o formulário
+3. O sistema irá fazer uma validação dos dados
+4. Caso o formulário foi preencheenchido incorretamente, irá aparecer uma mensagem de erro
+5. Caso o formulário foi preenchido corretamente, irá aparecer uma mensagem de sucesso
+6. inserção do usuário no banco de dados
+7. Redirecionamento do usuário para página inicial
 
 ### 4. Cadastro/Edição de Browser Games
 

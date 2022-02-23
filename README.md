@@ -7,3 +7,5 @@ Uma página web para avaliação de jogos em browser. Hohe em dia temos muitos j
 2. Gabriel Guerra Velloso
 3. Pedro Vilela
 4. Rosana dos Santos Ferreira
+
+[Requisitos](docs/reqs.md)

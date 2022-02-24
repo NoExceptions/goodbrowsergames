@@ -45,8 +45,10 @@ Pós-Condições  | Redirecionamento para página inicial
 
 Uso de Caso   | Cadastro de Browser Games
 --------------|------------
+Pré-Condições  | Estar logado no sistema
 Pré-Condições  | Usuário logado com nível de administrador
 Pós-Condições  | Cadastro ou alteração de browser game efetuado com sucesso
+Pós-Condições  | Redirecionamento para página de listagem de games
 
 1. Sistema irá pedir os dados de cadastro/edição
 2. Usuário irá preencher o formulário

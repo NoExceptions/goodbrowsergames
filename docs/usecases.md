@@ -22,6 +22,8 @@ Pós-Condições  | Acesso ao conteúdo protegido de acordo com permissão do us
 
 ### 3. Cadastro de novos membros
 
+<img width="500" src="/docs/imgs/cadastro.png" />
+
 Uso de Caso   | Cadastro de novos usuários
 --------------|------------
 Pré-Condições  | Preenchimento do formulário de cadastro

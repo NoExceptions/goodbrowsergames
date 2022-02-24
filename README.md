@@ -21,9 +21,11 @@ https://trello.com/b/CSJAbnw2/digital-minds
 
 #### Projeto em Execução (Versõ Nightly)
 
-Quando em desenvolvimento nosso projeto funcionará através do Heroku, clique [aqui para visualizar a versão mais recente](https://goodbrowsergames-web.herokuapp.com/) em fucnionamento.
+Quando em desenvolvimento nosso projeto funcionará através do Heroku, clique [aqui para visualizar a versão mais recente](https://goodbrowsergames-web.herokuapp.com/) em funcionamento. Ou use o link:  
 https://goodbrowsergames-web.herokuapp.com/
 
+Nosso sistema possuirá dois servidores um para servir de front-end e outro de API com persistencia em banco de dados, clique [aqui para visualizar a versão mais recente](https://goodbrowsergames-api.herokuapp.com/). Ou use o link:  
+https://goodbrowsergames-api.herokuapp.com/
 ## Detalhamento do Projeto
 O detalhamento de engenharia de software deste projeto pode ser encontrado na pasta docs deste repositório. Para facilitar o entendimento e navegabilidade do projeto os links abaixo podem ser utilizados.  
 

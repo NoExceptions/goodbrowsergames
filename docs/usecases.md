@@ -27,6 +27,7 @@ Pós-Condições  | Acesso ao conteúdo protegido de acordo com permissão do us
 Uso de Caso   | Cadastro de novos usuários
 --------------|------------
 Pré-Condições  | Preenchimento do formulário de cadastro
+Pré-Condições  | Email válido para cadastro
 Pós-Condições  | Cadastro de usuário efetuado com sucesso, nível de acesso standard: Membro
 Pós-Condições  | Redirecionamento para página inicial
 

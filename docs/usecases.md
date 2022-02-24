@@ -38,14 +38,6 @@ Pós-Condições  | Redirecionamento para página inicial
 6. inserção do usuário no banco de dados
 7. Redirecionamento do usuário para página inicial
 
-1. Sistema irá pedir os dados de cadastro
-2. Usuário irá preencher o formulário
-3. O sistema irá fazer uma validação dos dados
-4. Caso o formulário foi preencheenchido incorretamente, irá aparecer uma mensagem de erro
-5. Caso o formulário foi preenchido corretamente, irá aparecer uma mensagem de sucesso
-6. inserção do usuário no banco de dados
-7. Redirecionamento do usuário para página inicial
-
 ### 4. Cadastro/Edição de Browser Games
 
 Uso de Caso   | Cadastro de Browser Games

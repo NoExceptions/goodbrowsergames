@@ -41,10 +41,21 @@ Pós-Condições  | Redirecionamento para página inicial
 
 ### 4. Cadastro/Edição de Browser Games
 
+<img width="500" src="/docs/imgs/browser-games-cadastro:edicao.png" />
+
 Uso de Caso   | Cadastro de Browser Games
 --------------|------------
 Pré-Condições  | Usuário logado com nível de administrador
 Pós-Condições  | Cadastro ou alteração de browser game efetuado com sucesso
+
+1. Sistema irá pedir os dados de cadastro/edição
+2. Usuário irá preencher o formulário
+3. O sistema irá fazer uma validação dos dados
+4. O sistema irá verificar se o usuário é administrador
+5. Caso o formulário foi preencheenchido incorretamente, irá aparecer uma mensagem de erro
+6. Caso o formulário foi preenchido corretamente, irá aparecer uma mensagem de sucesso
+7. inserção/edição do usuário no banco de dados
+8. Redirecionamento do usuário para página de listagem de browser games
 
 ### 5. Cadastro/Edição de Categorias
 

@@ -68,7 +68,7 @@ Pré-Condições  | Usuário logado
 Pós-Condições  | Lista de jogos conforme tipo de busca
 
 #### Fluxo Principal 
-1. Usuário precisará logado e navegar até uma interface de busca
+1. Usuário precisará estar logado e navegar até uma interface de busca
 2. a busca poderá ser feita pelo nome do jogo (possível inserir o nome parcialmente) e/ou por escolha de uma categoria
 3. Usuário entra com os dados solicitados
 4. Sistema realiza a busca

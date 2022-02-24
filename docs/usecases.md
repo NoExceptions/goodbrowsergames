@@ -90,8 +90,27 @@ Pós-Condições  | Dados relevantes a um jogo específico
         - *Se houver, uma avaliação separada feita pelo próprio usuário que solicitou essa interface, a ideia é mostrar a avalição do próprio usuário sempre primeira*.
             - A validação já feita por um membro pode ser alterada por ele inúmeras vezes
         - Se administrador o usuário poderá remover qualquer comentário de qualquer membro
-  
-
+Possíveis interações entre usuário e interface de jogo    
+```mermaid
+sequenceDiagram
+    participant Usuário
+    participant View
+    participant Backend
+    Usuário->>View: Solicita url
+    View->>Backend: Consulta dados do jogo
+    Backend->>View: Retorna dados do jogo
+    Note right of Usuário: Dependendo do nível de acesso <br/>novos recursos aparecerão!
+    View->>Usuário: Mostra dados do jogo
+    Usuário->>View: Criar/Editar Avaliação
+    View-->>Backend: Persistir Avaliação
+    Backend-->>View: Avaliação alterada
+    View-->>Usuário: Sucesso na avaliação.
+    Usuário->>View: Marcar Avaliação como útil
+    View-->>Backend: Persistir Avaliação
+    Backend-->>View: Avaliação alterada
+    View-->>Usuário: Sucesso na avaliação.
+   
+```
 ### 7. Gestão de Membros
 
 Uso de Caso   | Gestão de Membros

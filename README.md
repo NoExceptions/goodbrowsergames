@@ -26,7 +26,7 @@ https://goodbrowsergames-web.herokuapp.com/
 
 Nosso sistema possuirá dois servidores um para servir de front-end e outro de API com persistencia em banco de dados, clique [aqui para visualizar a versão mais recente](https://goodbrowsergames-api.herokuapp.com/). Ou use o link:  
 https://goodbrowsergames-api.herokuapp.com/
-## Detalhamento do Projeto
+## Detalhamento das Necessidades do Projeto
 O detalhamento de engenharia de software deste projeto pode ser encontrado na pasta docs deste repositório. Para facilitar o entendimento e navegabilidade do projeto os links abaixo podem ser utilizados.  
 
 ### [Requisitos](docs/reqs.md)
@@ -34,3 +34,7 @@ Todos os requisitos funcionais e não funcionais elencados para este sistema est
 ### [Casos de Uso e Funcionalidades](docs/usecases.md)
 Use este link para navegar diretamente para todos o detalhamento de cada etapa do sistema.
 
+## Arquitetura do Projeto
+O projeto será desenvovlido em dois sistemas que se comunicam, um será o uma API Rest de Backend que disponibilizará métodos rest para o outro sistema que chamaremos aqui de front-end consumir.
+### [Back-end](docs/backend.md)
+### [Front-end](docs/frontend.md)

@@ -36,5 +36,9 @@ Use este link para navegar diretamente para todos o detalhamento de cada etapa d
 
 ## Arquitetura do Projeto
 O projeto será desenvovlido em dois sistemas que se comunicam, um será o uma API Rest de Backend que disponibilizará métodos rest para o outro sistema que chamaremos aqui de front-end consumir.
+
+### Diagrama de Implementação
+![image](https://user-images.githubusercontent.com/12943170/156937910-d0e1cee4-6c96-4ede-8caa-61cca8679154.png)
+
 ### [Back-end](docs/backend.md)
 ### [Front-end](docs/frontend.md)

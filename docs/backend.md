@@ -47,6 +47,6 @@ class Category{
   User "1" --o "*" BrowserGame : possui
   SessionToken "1" --o "1" User : pertence
   BrowserGame "1" --* "*" Evaluation : possui
-  BrowserGame "1" --o "1" Category : possui
+  BrowserGame "1" --o "1" Category : criado por
   Evaluation "1*" --* "1" User : criada por
   ```

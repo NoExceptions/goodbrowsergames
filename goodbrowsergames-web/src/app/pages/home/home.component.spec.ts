@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { HomeComponent } from './home.component';
+import { GameService } from 'src/app/services/game.service';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -11,6 +12,7 @@ describe('HomeComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      providers: [GameService],
       declarations: [ HomeComponent ]
     })
     .compileComponents();

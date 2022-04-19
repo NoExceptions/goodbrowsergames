@@ -3,7 +3,7 @@
 O diagrama abaixo mostra qual comportamento cada tipo de usuário deverá ter com o sistema em seu primeiro contato.
 ![Uso de caso logon](/docs/imgs/overview_acesso.png)
 
-### 2. Logon no Sistema
+### 2. Login no Sistema
 
 Uso de Caso   | Acesso a dados protegidos
 --------------|------------

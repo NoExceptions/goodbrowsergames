@@ -121,3 +121,61 @@ Usuário “Gabriel” deve avaliar um jogo com 5 estrelas. Essa avaliação dev
 
 **Valores possíveis:** SUCESSO, FALHA
 
+## Caso de Teste: Gestão de Membros
+### Cenário 1: Acesso à interface
+
+**Caso de uso em que se baseia**: Acessar as interfaces para gerir os membros/usuários do sistema
+
+O acesso deverá ser feito primeiramente com um usuário administrador e depois com um membro, com o intuito de garantir que a segurança do sistema não foi comprometido.
+
+##### Passos do Teste
+1. Logar como um usuário administrador
+2. Tentar acessar via url a interface de gestão de membros.
+3. Garantir que o acesso seja concedido
+4. Logar como um usuário membro (que não seja administrador)
+5. Tentar acessar via url a interface de gestão de membros.
+6. Garantir que o acesso seja proibido
+
+##### Resultados do Teste
+	- Acesso a interface solicitada com o usuário administrador
+	- Acesso negado (Not Found por exemplo) com usuário membro
+
+**Valores possíveis:** SUCESSO, FALHA
+
+### Cenário 2: Listagem de Usuários
+
+**Caso de uso em que se baseia**: Ver todos os membros do sistema através da interface de gestão
+
+O sistema deverá ser capaz de listar todos os usuários do sistema nessa interface.
+
+##### Passos do Teste
+1. Logar como um usuário administrador
+2. Tentar acessar via url a interface de gestão de membros.
+3. Garantir que o acesso seja concedido
+4. Checar se a listagem dos usuários estão consistentes com a base (conferir se a quantidade de usuários listados bate com o banco de dados)
+
+##### Resultados do Teste
+	- A contagem de usuários coincide com a base de dados
+
+**Valores possíveis:** SUCESSO, FALHA
+
+### Cenário 3: Alteração e exclusão de usuário
+
+**Caso de uso em que se baseia**: Alterar os dados de um membro
+
+O sistema deverá permitir que o administrador altere dados de um membro:
+- Nome
+- Email
+- Password (poderá reenviar uma reset de seha por email)
+- Nível de acesso (tornar mabrom um administrador e vice-versa)
+
+##### Passos do Teste
+1. Logar como um usuário administrador
+2. Tentar acessar via url a interface de gestão de membros.
+3. Garantir que o acesso seja concedido
+4. Escolher um usuário na listagem para ser alterado e confirmar se as alterações surtiram efeito
+
+##### Resultados do Teste
+	- Um usuário atualizado com as alterações feitas durante o teste
+
+**Valores possíveis:** SUCESSO, FALHA

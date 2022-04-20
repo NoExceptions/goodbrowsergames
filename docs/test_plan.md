@@ -101,5 +101,22 @@ Usuário já cadastrado::
 ##### Resultado do teste:
 	- Realizei um teste digitando a senha 123456 no primeiro campo e 654321 no segundo e o sistema apresentou a mensagem correta, apontando o erro e me impendindo de continuar.
   
-  
+**Valores possíveis:** SUCESSO, FALHA
+
+## Caso de Teste: Fluxo de Avaliação de Jogos
+### Cenário 1: Fluxo de avaliação
+
+**Caso de uso em que se baseia**: Avaliar jogos
+
+Usuário “Gabriel” deve avaliar um jogo com 5 estrelas. Essa avaliação deve contar um número a mais na contagem de avaliações do jogo, e deve ficar salva no perfil do usuário.
+
+##### Passos do Teste
+1. Enviar uma avaliação ao ID de um jogo
+2. Garantir que a contagem de avaliações e a média do jogo foram alteradas
+3. Garantir que essa avaliação consta nas informações do usuário
+
+##### Resultados do Teste
+As estrelas de avaliação devem ficar coloridas na tela de avaliação.
+
+**Valores possíveis:** SUCESSO, FALHA
 

@@ -19,6 +19,9 @@ O sistema de atualização de recomendação roda de forma assíncrona, desta fo
 - A validação poderá ser complexa, uma vez que o sistema pode não estar atualizando, então, o tester NÃO deverá considerar a resposta do array como correta diretamente, deve ser avaliado se o sistema é capaz de mudar essa seleção conforme o cenário mude.
 
 
+
+
+
 ## Caso de Uso: Cadastro de Usuário
 ### Cenário 1: Cadastro bem-sucedido:
 

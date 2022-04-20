@@ -179,3 +179,38 @@ O sistema deverá permitir que o administrador altere dados de um membro:
 	- Um usuário atualizado com as alterações feitas durante o teste
 
 **Valores possíveis:** SUCESSO, FALHA
+
+
+
+## Caso de Uso: Cadastro de Jogo
+
+### Cenário 1: Cadastro bem-sucedido
+
+**Caso de uso em que se baseia**: Cadastrar jogos
+
+Usuário "A" deve cadastrar um jogo com nome, descrição, desenvolvedor e capa. Esse cadastro deve ser registrado no banco de dados e uma página de detalhes deve se fazer disponível.
+
+##### Passos do Teste
+1. Preenchimento do nome do jogo com um nome válido (não-nulo)
+2. Preenchimento da descrição do jogo
+3. Preenchimento do campo de desenvolvedor (empresa ou indivíduo)
+4. Inserção da imagem que serve como capa do jogo
+5. Clique no botão de cadastro
+6. Garantir que o usuário é redirecionado a uma página de detalhes do jogo com as informações inseridas.
+
+##### Resultados do Teste:
+  - O sistema deverá apresentar a mensagem "Cadastro realizado com sucesso"
+  - O sistema deverá redirecionar para a página de detalhes do jogo cadastrado
+
+**Valores possíveis:** SUCESSO, FALHA
+
+### Cenário 2: Erro de cadastro
+
+##### Passos do Teste
+1. Preencho todos os campos, menos o campo de nome (único campo necessário)
+2. Clique no botão de cadastro
+3. Recebo feedbacks visuais de erro
+
+##### Resultado esperado:
+  - Um highlight de erro deve aparecer no campo "nome"
+  - Um "toast" deve aparecer na tela com uma mensagem de erro

@@ -14,10 +14,11 @@ O sistema de atualização de recomendação roda de forma assíncrona, desta fo
 
 ##### Resultados do Teste
 
-- Um erro inexperado (falha de comunicação ou erro de código)
-- Um array de jogos para o usuário escolhido durante teste
-- A validação poderá ser complexa, uma vez que o sistema pode não estar atualizando, então, o tester NÃO deverá considerar a resposta do array como correta diretamente, deve ser avaliado se o sistema é capaz de mudar essa seleção conforme o cenário mude.
+	- Um erro inexperado (falha de comunicação ou erro de código)
+	- Um array de jogos para o usuário escolhido durante teste
+	- A validação poderá ser complexa, uma vez que o sistema pode não estar atualizando, então, o tester NÃO deverá considerar a resposta do array como correta diretamente, deve ser avaliado se o sistema é capaz de mudar essa seleção conforme o cenário mude.
 
+**Valores possíveis:** SUCESSO, FALHA
 <br>
 <br>
 
@@ -101,7 +102,7 @@ Usuário já cadastrado::
 ##### Resultado do teste:
 	- Realizei um teste digitando a senha 123456 no primeiro campo e 654321 no segundo e o sistema apresentou a mensagem correta, apontando o erro e me impendindo de continuar.
   
-**Valores possíveis:** SUCESSO, FALHA
+
 
 ## Caso de Teste: Fluxo de Avaliação de Jogos
 ### Cenário 1: Fluxo de avaliação
@@ -116,7 +117,7 @@ Usuário “Gabriel” deve avaliar um jogo com 5 estrelas. Essa avaliação dev
 3. Garantir que essa avaliação consta nas informações do usuário
 
 ##### Resultados do Teste
-As estrelas de avaliação devem ficar coloridas na tela de avaliação.
+	- As estrelas de avaliação devem ficar coloridas na tela de avaliação.
 
 **Valores possíveis:** SUCESSO, FALHA
 

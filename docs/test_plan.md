@@ -214,3 +214,123 @@ Usuário "A" deve cadastrar um jogo com nome, descrição, desenvolvedor e capa.
 ##### Resultado esperado:
   - Um highlight de erro deve aparecer no campo "nome"
   - Um "toast" deve aparecer na tela com uma mensagem de erro
+
+
+
+## Caso de Uso: Interface de Jogo
+
+### Cenário 1: Interface de Jogo
+
+**Caso de uso em que se baseia**: Interface de Jogo
+
+Usuário deve estar logado e com o jogo escolhido
+
+##### Passos do Teste
+1. Usuário deve acessar sistema com login e senha
+2. Ao acessar, usuário irá acessar a interface de busca
+3. Inserir na barra de busca o nome do jogo completo ou parcial do jogo e/ou a
+categoria
+4. Sistema irá fazer a busca com os dados informados
+5. Usuário escolherá o jogo e clicará em confirmar
+6. Ao escolher o jogo, será apresentado ao usuário tela contendo as principais
+informações sobre o jogo
+7. Usuário poderá realizar e alterar sua própria avaliação do jogo
+8. Após usuário realizar avaliação, esta avaliação será apresentada no topo da página.
+9. Se administrador o usuário poderá remover qualquer comentário de qualquer
+membro
+
+##### Resultados do Teste:
+• O sistema deverá apresentar todas as informações importantes referentes ao jogo
+que foi buscado pelo usuário no sistema.
+
+**Valores possíveis**: SUCESSO, FALHA
+
+### Cenário 2: Usuário não consegue remover comentário de outro
+membro
+
+##### Passos do Teste
+1. Usuário entra com login e senha que não seja administrador
+2. Ao acessar, usuário irá acessar a interface de busca
+3. Inserir na barra de busca o nome do jogo completo ou parcial do jogo e/ou a
+categoria
+4. Sistema irá fazer a busca com os dados informados
+5. Usuário escolherá o jogo e clicará em confirmar
+6. Ao escolher o jogo, será apresentado ao usuário tela contendo as principais
+informações sobre o jogo
+7. Usuário verifica a avaliação que quer remover, mas sistema não habilita essa opção
+Resultado esperado:
+• Não acontecerá nenhuma alteração na tela, uma vez que, não será habilitado a
+opção de “remover”, que só é apresentada quando o usuário acessa o sistema com
+login e senha de administrador.
+
+
+
+## Caso de Uso: Pesquisa de Jogos
+
+### Cenário 1: Pesquisa de Jogos
+
+**Caso de uso em que se baseia**: Pesquisa de Jogos
+
+Usuário deve estar logado para realizar a pesquisa de jogos
+
+##### Passos do Teste
+1. Usuário deve acessar sistema com login e senha
+2. Ao acessar, usuário irá acessar a interface de busca
+3. Inserir na barra de busca o nome do jogo completo ou parcial do jogo e/ou a
+categoria
+4. Sistema irá fazer a busca com os dados informados
+5. Garantir que o sistema retornará a lista de jogos de acordo com a busca realizada
+pelo usuário
+Resultados do Teste:
+• O sistema deverá apresentar a lista de jogos de acordo com a busca realizada pelo
+usuário
+• Os jogos serão apresentados em uma lista ordenados pelo nome alfabeticamente
+
+**Valores possíveis**: SUCESSO, FALHA
+
+### Cenário 2: Erro na pesquisa do jogo
+
+##### Passos do Teste
+1. Usuário insere algum caractere incorreto ou nome que não tem na lista de jogos
+cadastrados no sistema
+2. Clique no botão de “Buscar”
+3. Aparece tela mostrando como realizar as buscas
+Resultado esperado:
+• Uma tela didática será retornada caso não seja encontrado nenhum jogo durante a
+busca
+
+
+
+## Caso de Uso: Cadastro/Edição de Categorias
+
+### Cenário 1: Cadastro/Edição bem-sucedido
+
+**Caso de uso em que se baseia**: Cadastro / Edição de Categorias
+
+Usuário deve estar logado com nível de administrador para ter acesso ao sistema de
+cadastro e edição.
+
+##### Passos do Teste
+1. Usuário deve acessar sistema com login e senha de administrador
+2. Ao acessar, usuário irá para página de Categorias onde poderá cadastrar ou editar
+as categorias dos Jogos.
+3. Realizar o cadastro/edição da categoria
+4. Confirmar o cadastro/edição clicando no botão “Alterar”
+5. Garantir que o usuário conseguiu realizar as alterações
+
+##### Resultados do Teste:
+• O sistema deverá apresentar a mensagem “Cadastro/Edição realizado com sucesso”
+• O sistema deverá redirecionar para a página de de categorias, com a alteração
+realizada.
+
+**Valores possíveis**: SUCESSO, FALHA
+
+### Cenário 2: Erro de cadastro/edição de Categorias
+
+##### Passos do Teste
+1. Não seleciona a categoria que deseja cadastrar/editar;
+2. Clique no botão de “Alterar”
+3. Recebo feedbacks visuais de erro
+
+##### Resultado esperado:
+• Um pop-up deve aparecer informando “Categoria não selecionada”

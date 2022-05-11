@@ -1,3 +1,3 @@
 module.exports = {
-    uri: "mongodb://localhost:27017/gbg"
+    uri: "mongodb+srv://api:jsokwiBQAL8Cev3Y@cluster0.lalre.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   };

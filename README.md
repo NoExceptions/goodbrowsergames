@@ -42,3 +42,33 @@ O projeto será desenvovlido em dois sistemas que se comunicam, um será o uma A
 
 ### [Back-end](docs/backend.md)
 ### [Front-end](docs/frontend.md)
+
+<br />
+
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+<br />
+
+# Para o front-end do projeto:
+
+Se não tiver o Angular CLI instalado, instale-o com o comando:
+```
+npm install -g @angular/cli
+```
+
+Compile a aplicação com:
+```
+npm run build
+```
+
+E inicialize usando:
+```
+npm start
+```
+
+# Para o back-end
+
+Inicie a API com
+```
+npm start
+```

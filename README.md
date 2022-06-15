@@ -7,10 +7,6 @@ Uma página web para avaliação de jogos em browser. Hoje em dia temos muitos j
 
 O código fonte se encontrará neste próprio repositório.
 
-#### Acompanhamento do Projeto
-
-O andamento do projeto poderá ser acompanhado através do trello, clique [aqui](https://trello.com/b/CSJAbnw2/digital-minds) para navegar até o nosso quadro.
-https://trello.com/b/CSJAbnw2/digital-minds
 
 #### Projeto em Execução (Versõ Nightly)
 
